@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
   // Send the email
   if (mail($to, $subject, $email_content, $email_headers)) {
-    http_response_code(200);
+    //http_response_code(200);
     echo "Thank You! Your message has been sent.";
   } else {
     http_response_code(500);
