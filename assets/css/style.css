@@ -14,6 +14,12 @@ html{
   scroll-behavior: smooth;
 }
 
+#header,#about, #resume, #portfolio, #services, #contact {
+  width: 100%;
+  height: 720px;
+  
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
